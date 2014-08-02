@@ -120,3 +120,4 @@ C:\Users\User\Dropbox\Projects\EventTracker\EventTracker\bin\Microsoft.Owin.Secu
 C:\Users\User\Dropbox\Projects\EventTracker\EventTracker\obj\Debug\EventTracker.csprojResolveAssemblyReference.cache
 C:\Users\User\Dropbox\Projects\EventTracker\EventTracker\obj\Debug\EventTracker.dll
 C:\Users\User\Dropbox\Projects\EventTracker\EventTracker\obj\Debug\EventTracker.pdb
+D:\My Document\git\EventTracker\EventTracker\obj\Debug\EventTracker.csprojResolveAssemblyReference.cache
