@@ -10,7 +10,8 @@ namespace EventTracker.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            //return View();
+            return RedirectToAction("Calendar", "Events");
         }
 
         public ActionResult About()
