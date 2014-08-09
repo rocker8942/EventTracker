@@ -119,3 +119,13 @@ D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Owin.Security.Twitter
 D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\My Document\git\EventTracker\EventTracker\obj\Debug\EventTracker.dll
 D:\My Document\git\EventTracker\EventTracker\obj\Debug\EventTracker.pdb
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Practices.ServiceLocation.dll
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Practices.Unity.dll
+D:\My Document\git\EventTracker\EventTracker\bin\Unity.Mvc4.dll
+D:\My Document\git\EventTracker\EventTracker\bin\WebActivatorEx.dll
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Practices.ServiceLocation.xml
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Practices.Unity.xml
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\My Document\git\EventTracker\EventTracker\obj\Debug\EventTracker.csprojResolveAssemblyReference.cache

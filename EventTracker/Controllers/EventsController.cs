@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using EventTracker.Models;
+using EventTracker.Services;
 
 namespace EventTracker.Controllers
 {
@@ -14,15 +15,31 @@ namespace EventTracker.Controllers
     {
         private EventTrackerContext db = new EventTrackerContext();
 
+        private IEventService service;
+        public EventsController(IEventService service)
+        {
+            this.service = service;
+        }
+
         // GET: Events
         public ActionResult Index()
         {
-            return View(db.EventModels.ToList());
+            //return View(db.EventModels.ToList());
+            var eventModels = this.service.GetEventss();
+            return this.View(eventModels);
         }
 
         // GET: Events/Board/
         public ActionResult Board()
         {
+            return View();
+        }
+
+        // GET: Events/Browser/
+        public ActionResult Browser()
+        {
+            //var eventModels = this.service.GetEventss();
+            //return this.View(eventModels);
             return View();
         }
 
@@ -33,18 +50,25 @@ namespace EventTracker.Controllers
         }
 
         // GET: Events/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult Details(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            EventModel eventModel = db.EventModels.Find(id);
+            //if (id == null)
+            //{
+            //    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            //}
+            //EventModel eventModel = db.EventModels.Find(id);
+            //if (eventModel == null)
+            //{
+            //    return HttpNotFound();
+            //}
+            //return View(eventModel);
+
+            var eventModel = this.service.GetEvent(id);
             if (eventModel == null)
             {
                 return HttpNotFound();
             }
-            return View(eventModel);
+            return this.View(eventModel);
         }
 
         // GET: Events/Create

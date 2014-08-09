@@ -21,8 +21,12 @@ namespace EventTracker
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
+            Bootstrapper.Initialise();
+
             //Db Initializer 
             Database.SetInitializer<EventTrackerContext>(new MyDbInitializer());
+
+            
         }
     }
 }
