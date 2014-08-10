@@ -1,0 +1,16 @@
+﻿@inherits EventTracker.Pages.MyBasePage
+
+@{
+    ViewBag.Title = "Browser";
+}
+
+<h2>Browser</h2>
+
+<div>
+    @this.MessageService.Message
+    <br />
+    <img alt="@this.MessageService.Message" src="@this.MessageService.ImageUrl" />
+</div>
+
+
+
