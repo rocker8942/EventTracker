@@ -15,6 +15,8 @@ namespace EventTracker.Models
         public string Detail { get; set; }
         public string Url { get; set; }
         public string Address { get; set; }
+        public decimal Latitude { get; set; }
+        public decimal Longitude { get; set; }
         
         [DisplayName("Start Date")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy/MM/dd}")]

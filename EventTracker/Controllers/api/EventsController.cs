@@ -27,7 +27,6 @@ namespace EventTracker.Controllers.api
         public IQueryable<FullCalendarViewModel> GetFullCalendarEvents()
         {
             var events = new List<FullCalendarViewModel>();
-
             foreach (EventModel e in db.EventModels)
             {
                 events.Add(new FullCalendarViewModel() { id = e.Id, title = e.Title, start = e.StartDate, end = e.EndDate }); 
@@ -35,7 +34,6 @@ namespace EventTracker.Controllers.api
             }
             return events.AsQueryable<FullCalendarViewModel>();
         }
-
 
         // GET: api/Events/5
         [ResponseType(typeof(EventModel))]
