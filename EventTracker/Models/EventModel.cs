@@ -7,7 +7,7 @@ using System.Web;
 
 namespace EventTracker.Models
 {
-    public class EventModel
+    public class EventModel : IEventModel
     {
         [Key]
         public int Id { get; set; }
@@ -15,8 +15,8 @@ namespace EventTracker.Models
         public string Detail { get; set; }
         public string Url { get; set; }
         public string Address { get; set; }
-        public decimal Latitude { get; set; }
-        public decimal Longitude { get; set; }
+        //public decimal Latitude { get; set; }
+        //public decimal Longitude { get; set; }
         
         [DisplayName("Start Date")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy/MM/dd}")]
@@ -26,5 +26,15 @@ namespace EventTracker.Models
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy/MM/dd}")]
         public DateTime EndDate { get; set; }
 
+
+        public double GetLatitude()
+        {
+            throw new NotImplementedException();
+        }
+
+        public double GetLongitude()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
