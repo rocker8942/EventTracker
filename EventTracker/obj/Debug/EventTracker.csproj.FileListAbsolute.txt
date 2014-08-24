@@ -129,3 +129,7 @@ D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Practices.ServiceLoca
 D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Practices.Unity.xml
 D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.Practices.Unity.Configuration.xml
 D:\My Document\git\EventTracker\EventTracker\obj\Debug\EventTracker.csprojResolveAssemblyReference.cache
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\My Document\git\EventTracker\EventTracker\bin\Microsoft.AspNet.SignalR.SystemWeb.xml

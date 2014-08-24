@@ -1,0 +1,5 @@
+D:\My Document\git\EventTracker\MyLibrary\bin\Debug\MyLibrary.dll
+D:\My Document\git\EventTracker\MyLibrary\bin\Debug\MyLibrary.pdb
+D:\My Document\git\EventTracker\MyLibrary\obj\Debug\MyLibrary.csprojResolveAssemblyReference.cache
+D:\My Document\git\EventTracker\MyLibrary\obj\Debug\MyLibrary.dll
+D:\My Document\git\EventTracker\MyLibrary\obj\Debug\MyLibrary.pdb
